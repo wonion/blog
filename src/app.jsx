@@ -1,11 +1,13 @@
-import { Component } from 'react';
-
+import React, { Component } from 'react';
+import Home from './pages/home/home';
 
 class App extends Component {
     state = {  } 
     render() { 
         return (
-            <h1>This is wonion's blog</h1>
+            <React.Fragment>
+                <Home />
+            </React.Fragment>
         );
     }
 }
