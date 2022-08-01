@@ -35,9 +35,11 @@ export const PersonWrapper = styled.div`
         }
     }
 
-    .divider {
+    .motto {
         color: rgb(32, 157, 123);
-        margin-top: 10px;
+        margin: 10px;
+        font-weight: bold;
+        font-size: 15px;
     }
 
     .contactWay {
@@ -57,6 +59,8 @@ export const PersonWrapper = styled.div`
 
             img {
                 display: none;
+                transform: translate(-50%, -80%);
+                position: fixed;
             }
         }
     }

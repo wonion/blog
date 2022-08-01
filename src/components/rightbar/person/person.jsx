@@ -22,7 +22,8 @@ class Person extends Component {
                     <div>后端: Gin + mysql</div>
                     <div><MailOutlined /> 1216963622@qq.com</div>
                 </div>
-                <Divider orientation='center' className='divider'>
+                <div className='motto'>想要把黄伞</div>
+                <Divider orientation='center' className='divider' style={{color: "rgb(32, 157, 123)"}}>
                     社交账号
                 </Divider>
                 <div className='contactWay'>
