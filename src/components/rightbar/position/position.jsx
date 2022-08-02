@@ -8,6 +8,11 @@ class Position extends Component {
     render() { 
         return (
             <PositionWrapper>
+                <div className='position'>
+                    <div>您的ip: </div>
+                    <div>您的地址: </div>
+                    <div>hi, 你好, 现在是time, msg</div>
+                </div>
                 <HeartOutlined />
             </PositionWrapper>
         );
